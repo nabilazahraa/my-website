@@ -1,0 +1,138 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  opacity: 0.5;
+}
+nav {
+  display: flex;
+  background-color: darkred;
+  justify-content: center;
+}
+#Bar {
+  color: white;
+  justify-content: left;
+  margin-left: 125px;
+  font-size: 30px;
+}
+.menu {
+  color: white;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 35px;
+  margin-left: auto;
+  font-size: 20px;
+}
+h1 {
+  align-items: center;
+}
+.footer {
+  background-color: darkred;
+  height: 50px;
+  width: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+#bitmoji {
+  margin-right: 250px;
+  margin-left: auto;
+  display: flex;
+  width: 450;
+  height: 450;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: darkred;
+  margin-right: 300px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+.links {
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+  justify-content: left;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 200px;
+  align-items: center;
+}
+#findme {
+  margin-right: 20px;
+  font-size: 20px;
+}
+a img:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1000px) {
+  #bitmoji {
+    margin-right: auto;
+    margin-left: auto;
+    width: 250;
+    height: 250;
+  }
+  nav {
+    display: flex;
+    background-color: darkred;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  #Bar {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    font-size: 15px;
+  }
+  #text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: darkred;
+    margin-right: auto;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  #findme {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+  .links {
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    justify-content: left;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+  }
+}
